@@ -6,4 +6,3 @@ infra:
     - cluster-two:
         provider: ECS
         type: terraform
-
