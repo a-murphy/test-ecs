@@ -1,8 +1,4 @@
-infra:
-  clusters:
-    - cluster-one:
-        provider: ECS
-        type: terraform
-    - cluster-two:
-        provider: ECS
-        type: terraform
+deploy:
+  infra:
+    - terraform: cluster-one
+    - terraform: cluster-two
